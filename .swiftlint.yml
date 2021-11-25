@@ -1,0 +1,7 @@
+excluded:
+- Carthage
+- Pods
+- SwiftLint/Common/3rdPartyLib
+disabled_rules:
+  - force_try
+  - line_length

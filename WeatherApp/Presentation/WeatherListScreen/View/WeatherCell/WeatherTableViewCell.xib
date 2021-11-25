@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="179" id="KGk-i7-Jjw" customClass="WeatherTableViewCell" customModule="WeatherApp">
+            <rect key="frame" x="0.0" y="0.0" width="515" height="179"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="515" height="179"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="27 Nov 1991" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kZz-IK-QJI">
+                        <rect key="frame" x="10" y="30" width="104" height="21.5"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HSn-jw-Jix">
+                        <rect key="frame" x="189.5" y="146" width="33.5" height="21"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cloud.moon.rain" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="Xey-SX-6dg">
+                        <rect key="frame" x="435" y="63.5" width="50.5" height="53.5"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="HZe-xk-2Gp"/>
+                            <constraint firstAttribute="height" constant="50" id="k6U-2J-NC0"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Humidity" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4eB-C2-80y">
+                        <rect key="frame" x="274.5" y="71.5" width="69" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="56%" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qp5-PH-gcZ">
+                        <rect key="frame" x="291" y="146" width="36" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Min" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OHS-Q6-ynp">
+                        <rect key="frame" x="192" y="71.5" width="28" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Max" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7rI-sg-LmD">
+                        <rect key="frame" x="87" y="71.5" width="32" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10C" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fpO-3L-qRs">
+                        <rect key="frame" x="86.5" y="146" width="33.5" height="21"/>
+                        <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="7rI-sg-LmD" firstAttribute="top" secondItem="OHS-Q6-ynp" secondAttribute="top" id="7ew-dK-rig"/>
+                    <constraint firstItem="Xey-SX-6dg" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="EDN-5y-qgw"/>
+                    <constraint firstItem="7rI-sg-LmD" firstAttribute="top" secondItem="kZz-IK-QJI" secondAttribute="bottom" constant="20" id="MFV-w0-3RD"/>
+                    <constraint firstAttribute="trailing" secondItem="Xey-SX-6dg" secondAttribute="trailing" constant="30" id="N0W-Hv-nWN"/>
+                    <constraint firstAttribute="bottom" secondItem="HSn-jw-Jix" secondAttribute="bottom" constant="12" id="OVV-Ha-4RS"/>
+                    <constraint firstItem="OHS-Q6-ynp" firstAttribute="top" secondItem="4eB-C2-80y" secondAttribute="top" id="PaK-z1-Mri"/>
+                    <constraint firstItem="OHS-Q6-ynp" firstAttribute="centerX" secondItem="HSn-jw-Jix" secondAttribute="centerX" id="Pm1-Hy-Buv"/>
+                    <constraint firstAttribute="bottom" secondItem="fpO-3L-qRs" secondAttribute="bottom" constant="12" id="Roa-b1-T8t"/>
+                    <constraint firstItem="HSn-jw-Jix" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" multiplier="0.8" id="Z6W-th-qd8"/>
+                    <constraint firstItem="7rI-sg-LmD" firstAttribute="centerX" secondItem="fpO-3L-qRs" secondAttribute="centerX" id="ZRj-Xo-Hwi"/>
+                    <constraint firstItem="fpO-3L-qRs" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" multiplier="0.4" id="d13-7F-Ge0"/>
+                    <constraint firstItem="kZz-IK-QJI" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="30" id="eq5-j4-aTz"/>
+                    <constraint firstItem="kZz-IK-QJI" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="foe-pt-2Co"/>
+                    <constraint firstItem="4eB-C2-80y" firstAttribute="centerX" secondItem="qp5-PH-gcZ" secondAttribute="centerX" id="jAe-Ag-Cxr"/>
+                    <constraint firstItem="qp5-PH-gcZ" firstAttribute="centerX" secondItem="H2p-sc-9uM" secondAttribute="centerX" multiplier="1.2" id="yg4-iw-UHZ"/>
+                    <constraint firstAttribute="bottom" secondItem="qp5-PH-gcZ" secondAttribute="bottom" constant="12" id="zXh-Xt-U33"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imgLogo" destination="Xey-SX-6dg" id="rP9-c0-8aJ"/>
+                <outlet property="lblDate" destination="kZz-IK-QJI" id="jq1-IH-2Me"/>
+                <outlet property="lblHumidity" destination="qp5-PH-gcZ" id="Uyh-ld-1b8"/>
+                <outlet property="lblMaxDegree" destination="fpO-3L-qRs" id="IaW-jZ-qNg"/>
+                <outlet property="lblMinDegree" destination="HSn-jw-Jix" id="Zm7-sr-2Nd"/>
+            </connections>
+            <point key="canvasLocation" x="278.98550724637681" y="146.98660714285714"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="cloud.moon.rain" catalog="system" width="125" height="128"/>
+    </resources>
+</document>
